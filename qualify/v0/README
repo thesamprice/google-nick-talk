@@ -1,0 +1,7 @@
+v0
+This is a basic framework that loads up a translation unit with its matching
+compile commands.
+
+Todo:
+ * use the clang AST matchers to match uses of names in the namespace
+ * actually modify the code

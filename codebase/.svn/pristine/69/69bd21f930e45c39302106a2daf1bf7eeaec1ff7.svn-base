@@ -1,0 +1,3 @@
+#include "common/base.h"
+
+common::base::Colour function();

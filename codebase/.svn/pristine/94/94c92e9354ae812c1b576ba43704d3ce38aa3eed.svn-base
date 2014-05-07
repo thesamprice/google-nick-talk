@@ -1,0 +1,4 @@
+#include "common/problem.h"
+
+DrawState::Winding f() { return DrawState::CW; }
+common::base::DrawState::Winding f() { return common::base::DrawState::CW; }

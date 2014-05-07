@@ -1,0 +1,12 @@
+#include "base.h"
+
+namespace common {
+namespace base {
+
+bool Colour_IsValid(int value) {
+  return value >= Colour_MIN && value <= NUM_COLOURS;
+}
+
+}
+}
+

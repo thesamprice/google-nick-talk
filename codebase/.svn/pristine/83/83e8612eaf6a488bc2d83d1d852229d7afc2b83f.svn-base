@@ -1,0 +1,19 @@
+#include "colour-wheel.h"
+
+#include <cmath>
+#include <vector>
+
+ColourWheel::~ColourWheel() {}
+RGBColourWheel::~RGBColourWheel() {}
+YUVColourWheel::~YUVColourWheel() {}
+
+std::vector<double> getColours(int slices) {
+  RGBColourWheel RGB;
+  std::vector<double> hues;
+  double angle = 0;
+  for (int i = 0; i < slices; ++i) {
+    angle += M_PI / slices;
+    hues.push_back(RGB.getHue(angle));
+  }
+  return hues;
+}

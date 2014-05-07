@@ -1,0 +1,9 @@
+#include "common/problem.h"
+
+Coord f();
+struct Coord f();
+common::base::Coord f();
+struct common::base::Coord f();
+
+Coord x;
+

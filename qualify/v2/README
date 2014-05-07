@@ -1,0 +1,9 @@
+v2
+We used "declRefExpr" to match uses of names which are defined inside the right
+namespace. We wrote a "tagType" AST matcher and used it to match types declared
+in the right namespace.
+
+Todo:
+ * detect whether we're inside the namespace and don't qualify those
+ * run it over the whole codebase!
+

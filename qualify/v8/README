@@ -1,0 +1,6 @@
+v8
+Keep track of namespace alias and use that name.
+
+Todo:
+ * look at the unhandled examples
+

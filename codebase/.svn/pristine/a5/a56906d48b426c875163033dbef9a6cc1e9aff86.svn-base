@@ -1,0 +1,5 @@
+#include "problem.h"
+
+common::base::Colour getRowColour(int row_number) {
+  return row_number % 2 ? common::base::WHITE : common::base::OFFWHITE;
+}

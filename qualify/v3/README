@@ -1,0 +1,7 @@
+v3
+We added a skip list for SourceLocations we shouldn't touch, and populate it
+with hits inside the namespace we're adding qualifiers for.
+
+Todo:
+ * move on to ex1.
+  - already-prefixed references.

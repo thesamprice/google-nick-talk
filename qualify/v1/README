@@ -1,0 +1,10 @@
+v1
+We used "matchesName" to match uses of the name, and prepended namespace:: .
+
+Todo:
+ * matchesName added qualifiers where they weren't needed. Should we detect
+   whether we're inside the namespace?
+ * puts qualifiers in the wrong places a lot of the time, for example
+   "namespace::enum Colour"
+ * failed to qualify uses of types, eg. "Colour func();"
+ * failed to look through DeclRefExpr's referring to decls with matching names

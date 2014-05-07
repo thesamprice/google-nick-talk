@@ -1,0 +1,5 @@
+#include "common/problem.h"
+
+common::base::Colour function1() { return common::base::RED; }
+common::base   ::   Colour function2() { return common::base   ::   RED; }
+Colour function3() { return RED; }

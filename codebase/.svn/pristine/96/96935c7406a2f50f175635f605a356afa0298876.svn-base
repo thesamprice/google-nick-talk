@@ -1,0 +1,8 @@
+#include "common/problem.h"
+
+template<typename T> struct Container {
+  Container *next;
+  T t;
+};
+
+Container<Colour> list;

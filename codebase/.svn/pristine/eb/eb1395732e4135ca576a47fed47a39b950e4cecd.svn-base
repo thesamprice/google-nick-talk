@@ -1,0 +1,19 @@
+#include "common/base.h"
+
+class ColourWheel {
+public:
+  virtual ~ColourWheel();
+  virtual double getHue(double angle) const;
+};
+
+class RGBColourWheel : public ColourWheel {
+public:
+  virtual ~RGBColourWheel();
+  double getHue(double angle) const;
+};
+
+class YUVColourWheel : public ColourWheel {
+public:
+  virtual ~YUVColourWheel();
+  double getHue(double angle) const;
+};

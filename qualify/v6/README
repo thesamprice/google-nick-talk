@@ -1,0 +1,5 @@
+v6
+Skip DREs inside templates.
+
+Todo:
+ * respect using declarations

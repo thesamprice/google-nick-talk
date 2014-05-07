@@ -1,0 +1,5 @@
+v7
+Keep a list of using declarations and avoid qualifying them.
+
+Todo:
+ * respect namespace aliases

@@ -1,0 +1,6 @@
+#include "common/problem.h"
+
+Colour f(int i) {
+  Colour c = static_cast<Colour>(i);
+  return c;
+}

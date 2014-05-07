@@ -1,0 +1,7 @@
+v4
+Add more skipping cases for DREs which have qualfiers, and also when matching
+elaborated types that name our type.
+
+Todo:
+ * add more clear debugging, then
+ * try compiling more code
